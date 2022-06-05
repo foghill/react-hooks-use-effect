@@ -13,9 +13,8 @@ function DogPics() {
         console.log("setState");
         setImages(data.message);
       });
-  });
-
-  console.log("render");
+  }, []),
+    console.log("render");
 
   return (
     <div>
